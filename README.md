@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="icon.png" alt="OnioProbe Logo" width="200"/>
+</p>
+
+# 🧅 OnioProbe
+
 OnioProbe
 
 OnioProbe is a **browser extension + backend scanner** that detects **OWASP Top 10 vulnerabilities** and discovers hidden **.onion links** inside web pages.  
@@ -150,5 +156,6 @@ Pull requests are welcome. Please open issues to discuss new features or bugs.
 MIT License © 2025
 
 ```
+
 
 
