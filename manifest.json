@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "OnioProbe - OWASP & Onion Scanner",
+  "version": "1.0",
+  "description": "Scan any website for OWASP Top 10 risks & detect hidden .onion links in one click.",
+  "permissions": ["activeTab", "scripting", "tabs"],
+  "host_permissions": [
+    "<all_urls>",
+    "http://localhost:5000/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  }
+}

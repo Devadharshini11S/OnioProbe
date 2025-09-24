@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' http://127.0.0.1:5000; script-src 'self'">
+  <link rel="stylesheet" href="styles.css" />
+  <title>OnioProbe</title>
+</head>
+<body>
+  <div class="container">
+    <h2>OnioProbe</h2>
+    <input id="url" type="text" placeholder="https://example.com" />
+    <div class="row">
+      <label><input id="passive" type="radio" name="scanType" value="passive" checked> Passive</label>
+      <label><input id="active" type="radio" name="scanType" value="active"> Active</label>
+    </div>
+    <label><input id="useTor" type="checkbox" /> Use Tor (for .onion)</label>
+    <button id="scanBtn">Scan</button>
+    <div id="status" class="status"></div>
+    <pre id="output" class="output"></pre>
+    <a id="downloadLink" href="#" target="_blank" style="display:none;">Download full report</a>
+  </div>
+  <script src="pop.js"></script>
+</body>
+</html>
